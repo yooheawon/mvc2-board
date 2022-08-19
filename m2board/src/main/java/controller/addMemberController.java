@@ -19,7 +19,7 @@ public class addMemberController extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
-		if (session.getAttribute("id") != null) { // 로그인상태
+		if (session.getAttribute("memberLogin") != null) { // 로그인상태
 			response.sendRedirect(request.getContextPath()+"/index");
 			return;
 		}

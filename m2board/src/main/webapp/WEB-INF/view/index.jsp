@@ -36,6 +36,9 @@
 		</tbody>
 	</table>
 	<div>
+		<a href="${pageContext.request.contextPath}/boardList">게시판 목록</a>
+	</div>
+	<div>
 		<a href="${pageContext.request.contextPath}/updateMember">정보수정</a>
 	</div>
 	<div>

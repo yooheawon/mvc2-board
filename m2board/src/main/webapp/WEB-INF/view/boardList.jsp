@@ -12,6 +12,9 @@
    <div>
    	   	
       <a href="${pageContext.request.contextPath}/addBoard.jsp"> 글쓰기 </a>
+      <a href="${pageContext.request.contextPath}/index"> 개인정보 </a>
+      <a href="${pageContext.request.contextPath}/logoutController"> 로그아웃 </a>
+      
    </div>
    
    <table border="1">
